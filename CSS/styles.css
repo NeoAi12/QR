@@ -1,0 +1,51 @@
+body {
+    overflow: hidden;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+.background-div {
+    background-color: hsl(212, 45%, 89%);
+    height: 800px;
+    width: 100%;
+    padding-top: 125px;
+}
+.main-container {
+    position: relative;
+    background-image: linear-gradient(to bottom left, #fffffa 0%, hsl(0, 0%, 100%) 80%);
+    width: 322px;
+    height: 496px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.sub-container {
+    position: relative;
+    top: 15px;
+    left: 7px;
+    margin: 0 auto;
+    height: 350px;
+    width: 300px;
+    
+}
+img {
+    height: 285px;
+    width: 285px;
+    border-radius: 10px;
+    
+}
+h2 {
+    position: absolute;
+    text-align: center;
+    left: 18px;
+    width: 285px;
+    bottom: 100px;
+}
+p {
+    position: absolute;
+    text-align: center;
+    bottom: 30px;
+    left: 30px;
+    color: hsl(220, 15%, 55%);
+    width: 265px;
+}
