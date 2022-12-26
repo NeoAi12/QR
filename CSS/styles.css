@@ -1,18 +1,16 @@
 .sr-only {
-    position:absolute;
+position:absolute;
 left:-10000px;
 top:auto;
 width:1px;
 height:1px;
 overflow:hidden;
-
 }
 html, body {
     height: 100%;
     width: 100%;
 }
 body {
-    overflow: hidden;
     font-size: 0.95rem;
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
